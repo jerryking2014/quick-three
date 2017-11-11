@@ -1,3 +1,5 @@
+"use strict";
+
 var Quick3D = function (option) {
     option = Object.assign({
         camera: null,
