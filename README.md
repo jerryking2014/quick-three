@@ -1,5 +1,7 @@
 # quick-three
 wrapper Three.js to create a 3d world quickly
+
+[中文](README_CN.md)
 ## Usage
 ```html
     <script src="three.min.js"></script>
@@ -7,7 +9,7 @@ wrapper Three.js to create a 3d world quickly
 ```
 ```javascript
     var option = {
-        // camera instance, Quick3d will add camera to scene, default is THREE.PerspectiveCamera
+        // camera instance, Quick3d will add camera to scene, default is THREE.PerspectiveCamera instance
         camera: null,
 
         // renderer instance or renderer class, default is THREE.WebGLRenderer
