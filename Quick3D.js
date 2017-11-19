@@ -110,11 +110,8 @@
         }
     };
 
-    if( typeof exports !== 'undefined' ) {
-        if( typeof module !== 'undefined' && module.exports ) {
-            exports = module.exports = Quick3D;
-        }
-        exports.Quick3D = Quick3D;
+    if( typeof module !== 'undefined' ) {
+        module.exports = Quick3D;
     } else {
         window.Quick3D = Quick3D;
     }
