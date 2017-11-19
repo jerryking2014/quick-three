@@ -2,11 +2,20 @@
 wrapper Three.js to create a 3d world quickly
 
 [中文](README_CN.md)
-## Usage
+## Installation
+you can install with ```npm install quick-three```
+```javascript
+    /* in ES 5 */
+    let Quick3d = require('quick-three');
+    /* in ES 6 */
+    import Quick3d from 'quick-three';
+```
+or
 ```html
     <script src="three.min.js"></script>
     <script src="Quick3D.js"></script>
 ```
+## Usage
 ```javascript
     var option = {
         // camera instance, Quick3d will add camera to scene, default is THREE.PerspectiveCamera instance

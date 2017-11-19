@@ -1,10 +1,19 @@
 # quick-three
 Three.js的简单封装，能够帮助你快速创建3D场景
-## 用法
+## 安装
+你可以通过 ```npm install quick-three```
+```javascript
+    /* in ES 5 */
+    let Quick3d = require('quick-three');
+    /* in ES 6 */
+    import Quick3d from 'quick-three';
+```
+或者
 ```html
     <script src="three.min.js"></script>
     <script src="Quick3D.js"></script>
 ```
+## 用法
 ```javascript
     var option = {
         // camera 实例, Quick3d 会将其加入场景中, 默认值：THREE.PerspectiveCamera的实例
